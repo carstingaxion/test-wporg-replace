@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run wporg-replace
-        uses: sc0ttkclark/wporg-replace@v1.0.6
+        uses: sc0ttkclark/wporg-replace@main
         with:
           plugin_file: ${{ env.WPORG_PLUGIN_FILE }}
           plugin_path: ${{ github.workspace }}
