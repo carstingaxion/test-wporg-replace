@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run wporg-replace
-        uses: sc0ttkclark/wporg-replace@main
+        uses: sc0ttkclark/wporg-replace@9b40b566447479c81ae16fa80a8bd133b24903ce # "Pass readme md file config to more scripts"
         with:
           plugin_file: ${{ env.WPORG_PLUGIN_FILE }}
           plugin_path: ${{ github.workspace }}
