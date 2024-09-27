@@ -1,0 +1,6 @@
+{
+	"name": "carstingaxion/test-wporg-replace",
+	"require": {
+		"php": ">=7.4"
+	}
+}
